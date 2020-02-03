@@ -16,10 +16,10 @@
         <TextBox x:Name="tb1" HorizontalAlignment="Left" Height="26" Margin="94,166,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="242" TextChanged="Tb1_TextChanged"/>
         <TextBox x:Name="tb2" HorizontalAlignment="Left" Height="25" Margin="94,215,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="242" TextChanged="Tb2_TextChanged"/>
         <TextBox x:Name="tb3" HorizontalAlignment="Left" Height="25" Margin="94,262,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="242" TextChanged="Tb3_TextChanged"/>
-        <Label Content="Name:" HorizontalAlignment="Left" Height="26" Margin="21,166,0,0" VerticalAlignment="Top" Width="68" FontSize="14"/>
-        <Label Content="Address:" HorizontalAlignment="Left" Height="25" Margin="21,215,0,0" VerticalAlignment="Top" Width="68" FontSize="11"/>
-        <Label Content="ZIP:" HorizontalAlignment="Left" Height="25" Margin="21,262,0,0" VerticalAlignment="Top" Width="73"/>
+        <Label x:Name="Name" Content="Name:" HorizontalAlignment="Left" Height="26" Margin="21,166,0,0" VerticalAlignment="Top" Width="68" FontSize="14"/>
+        <Label x:Name="Address" Content="Address:" HorizontalAlignment="Left" Height="25" Margin="21,215,0,0" VerticalAlignment="Top" Width="68" FontSize="11"/>
+        <Label x:Name="ZIPcode" Content="ZIP:" HorizontalAlignment="Left" Height="25" Margin="21,262,0,0" VerticalAlignment="Top" Width="73"/>
         <Button x:Name="Submit" Content="Submit" HorizontalAlignment="Left" VerticalAlignment="Top" Width="103" Background="#FF9511E0" Margin="136,341,0,0" Click="Submit_Click" BorderBrush="#FF1F0EC7" Foreground="#FFDAEE12" FontWeight="Bold" FontSize="14" Height="44"/>
-        <ListBox x:Name="lb1" HorizontalAlignment="Left" Height="132" Margin="443,60,-355,0" VerticalAlignment="Top" Width="295"/>
+        <ListBox x:Name="lb1" HorizontalAlignment="Left" Height="325" Margin="443,60,-355,0" VerticalAlignment="Top" Width="295"/>
     </Grid>
 </Window>
